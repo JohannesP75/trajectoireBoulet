@@ -3,13 +3,6 @@
 #include "io.h"
 #include "physique.h"
 
-/*
-    Projet commencé le mardi 6 janvier 2015 par:
-        - BOCOS Nicolas
-        - FOMO-POUALEU Julien
-        - BELAROUCI Hedi
-*/
-
 int main(int argv,char** argc){
     int i=0;
     int t=0;
@@ -25,7 +18,7 @@ int main(int argv,char** argc){
     FILE* fich_image=NULL;
     t_data_fichiers data={NULL,NULL};
     
-    gestion_io(argv,argc,pas,&boulet,&vitesse_init); // Gere les entrées/sorties avec l'utilisateur
+    gestion_io(argv,argc,pas,&boulet,&vitesse_init); // Gere les entrÃ©es/sorties avec l'utilisateur
 
     ecrire_header_fichier(boulet,vitesse_init,fichier);
 
